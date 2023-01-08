@@ -14,7 +14,7 @@ import javax.persistence.*;
 
 @Table(name = "tbl_supplier")
 @Entity
-public class Supplier {
+public class Supplier extends BaseEntity{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
